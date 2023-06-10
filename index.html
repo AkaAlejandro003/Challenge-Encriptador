@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Encriptador</title>
 </head>
 <body>
-    
+    <header>
+        <img class="logo" src="Imagenes/Logo.svg" alt="Logo">
+    </header>
+    <main>
+        <section class="seccion1">
+            <div class="container-cajatexto">
+                <textarea placeholder="Ingrese el texto aquí." class="texto1"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="/Imagenes/alerta.svg" alt="Alerta">
+                <p>Solo letras minúsculas y sin acentos.</p>
+            </div>
+            <div class="container-botones">
+                <input type="button" class="boton-encriptar" value="Encriptar">
+                <input type="button" class="boton-desencriptar" value="Desencriptar">
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="container-persona">
+                <img src="/Imagenes/Muñeco.svg" alt="Muñeco">
+            </div>
+            <div class="container-parrafo">
+                <h3>Ningún mensaje fue encontrado.</h3>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="container-copiar">
+                <input type="button" class="boton-ccopiar" value="Copiar">
+            </div>
+            <div class="container-resultado">
+                <p class="texto-resultado"></p>
+            </div>
+        </section>
+    </main>    
 </body>
 </html>
