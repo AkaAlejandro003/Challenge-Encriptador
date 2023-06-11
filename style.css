@@ -60,6 +60,10 @@ main {
     color: #495057;
 }
 
+.alerta p {
+    padding: 10px;
+}
+
 .container-botones {
     position: absolute;
     top: 800px;
@@ -94,8 +98,9 @@ main {
 }
 
 .seccion2 {
-    display: block;
-    position: relative;
+    display: flex;
+    position: absolute;
+    justify-content: center;
     width: 400px;
     height: 940PX;
     right: 400PX;
@@ -160,7 +165,7 @@ main {
     padding-left: 40px;
 }
 
-.boton-ccopiar {
+.boton-copiar {
     width: 328px;
     height: 67px;
     border-radius: 24px;
@@ -172,5 +177,8 @@ main {
     cursor: pointer;
     position: relative;
     top: 100px;
-    right: 40px;
+}
+
+.ocultar {
+    display: none;
 }
